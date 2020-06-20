@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+}
+
+.title {
+  margin: .5em auto;
+  text-align: center;
+}
+
+.container-tabla,
+.container-tabla-2 {
+  width: 78%;
+  display: grid;
+  border: none;
+  overflow: hidden;
+  margin: auto;
+}
+
+.container-tabla {
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(7, 58px);
+}
+
+.container-tabla-2 {
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(2, 58px);
+}
+
+div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+table,
+th,
+td {
+  border-spacing: 4px;
+  border-collapse: separate;
+}
+
+table {
+  width: 78%;
+  margin: 20px auto;
+}
+
+th,
+td {
+  font-size: .9em;
+  padding: 10px;
+  text-align: center;
+}
+
+.transparent {
+  visibility: hidden;
+}
+
+.gris {
+  background-color: lightgrey;
+}
+
+/*Morado oscuro*/
+.alcalinos {
+  background-color: rgb(151, 7, 132);
+}
+
+/*Pink */
+.alcalinoterreos {
+  background-color: pink;
+}
+
+/*Orange*/
+.metales-transicion {
+  background-color: orange;
+}
+
+.lantanidos {
+  background-color: orangered;
+}
+
+.actinidos {
+  background-color: deeppink;
+}
+
+.otros-metales {
+  background-color: yellow;
+}
+
+.metaloides {
+  background-color: greenyellow;
+}
+
+.otros-no-metales {
+  background-color: olivedrab;
+}
+
+.halogenos {
+  background-color: cyan;
+}
+
+.gases-nobles {
+  background-color: lightblue;
+}
+
+span {
+  font-weight: 700;
+  font-size: 1.1em;
+  justify-self: center;
+  align-self: center;
+}
